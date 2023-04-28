@@ -15,6 +15,11 @@ class FileInputGUI:
         self.root.title("File Input GUI")
         self.root.geometry("300x300")
 
+        # create a label to display help text
+        self.help_label = tk.Label(
+            self.root, text="Selectionnez un fichier JSON à convertir.", wraplength=280)
+        self.help_label.pack()
+
         # create the browse button for the file dialog
         self.browse_button = tk.Button(
             self.root, text="Fichier des données", command=self.browse_file)
@@ -35,11 +40,6 @@ class FileInputGUI:
             self.root, text="", wraplength=280, fg="blue")
         self.dictionary_file_label.pack()
 
-        # create a label to display help text
-        self.help_label = tk.Label(
-            self.root, text="Please select a JSON file to convert.", wraplength=280)
-        self.help_label.pack()
-
         # create a button to convert the file
         self.convert_button = tk.Button(
             self.root, text="Convertir", command=self.convert_file)
@@ -58,7 +58,6 @@ class FileInputGUI:
         self.input_dictionary_file_path = file_path
 
     def convert_file(self):
-
         fileType = os.path.splitext(self.input_file_path)[-1]
         dictionaryFileType = ''
         if hasattr(self, "input_dictionary_file_path"):
@@ -70,35 +69,75 @@ class FileInputGUI:
                                    "Unsupported file type " + str(fileType))
             return
 
-        if dictionaryFileType:
-            dictionary = pd.read_json(self.input_dictionary_file_path)
-            for i in range(len(dictionary)):
-                for key in dictionary.iloc[i].keys():
-                    dictionary.iloc[i][key] = dictionary.iloc[i][key].lower()
-
         # read the input file into a pandas DataFrame
         try:
-            df = pd.read_json(self.input_file_path)
+            df = json.load(open(self.input_file_path))
         except ValueError:
             tk.messagebox.showinfo("Error",
                                    "File could not be converted to DataFrame")
+        if dictionaryFileType:
+            dictionary = json.load(open(self.input_dictionary_file_path))
+            # convert all the headers to the dictionary header using the key and labeleFr
+            # create a hashmap for the already converted headers
+            map = {}
+            newDf = []
+            for i in range(len(df)):
+                newDf.append({})
+                for key in df[i].keys():
+                    if key in map:
+                        newDf[i][map[key]] = df[i][key]
+                        continue
+                    for j in range(len(dictionary)):
+                        if key == dictionary[j]['key']:
+                            newDf[i][dictionary[j]['labeleFr']] = df[i][key]
+                            map[key] = dictionary[j]['labeleFr']
+                            break
+                        # if the last one and not found
+                        elif j == len(dictionary) - 1:
+                            newDf[i][key] = df[i][key]
+
+            print('first')
+            print(newDf[0])
+            # convert all the values to the dictionary values using the key and labeleFr
+            for i in range(len(newDf)):
+                for key in newDf[i].keys():
+                    if key in map:
+                        newDf[i][key] = map[key]
+                        continue
+                    for j in range(len(dictionary)):
+                        if newDf[i][key] == dictionary[j]['key']:
+                            newDf[i][key] = dictionary[j]['labeleFr']
+                            map[key] = dictionary[j]['labeleFr']
+                            break
+            print(newDf[0])
+
+        df = pd.DataFrame(df)
+
+        if len(newDf) > 0:
+            df = pd.DataFrame(newDf)
+
+        print('second')
+        print(newDf[0])
 
         # iterate through each key in the DataFrame
         for i in range(len(df)):
             valuesToConvert = ['$oid', '$date', '$numberLong']
             for key in df.iloc[i].keys():
-                print(df.iloc[i][key])
-                if isinstance(df.iloc[i][key], object):
-                    for value in valuesToConvert:
-                        if value in df.iloc[i][key]:
-                            if value == '$date':
-                                dt = datetime.datetime.strptime(
-                                    df.iloc[i][key][value], '%Y-%m-%dT%H:%M:%S.%fZ')
-                                print(df.iloc[i][key][value])
-                                df.iloc[i][key] = dt.strftime(
-                                    '%Y-%m-%d %H:%M')
-                            else:
-                                df.iloc[i][key] = df.iloc[i][key][value]
+                if isinstance(df.iloc[i][key], dict):
+                    for valueToConvert in valuesToConvert:
+                        print("df.iloc[i][key]")
+                        print(df.iloc[i][key])
+                        if valueToConvert in df.iloc[i][key]:
+                            if valueToConvert == '$oid':
+                                df.iloc[i][key] = df.iloc[i][key][valueToConvert]
+                            elif valueToConvert == '$date':
+                                df.iloc[i][key] = datetime.datetime.fromtimestamp(
+                                    df.iloc[i][key][valueToConvert]/1000.0)
+                            elif valueToConvert == '$numberLong':
+                                df.iloc[i][key] = df.iloc[i][key][valueToConvert]
+
+        print('third')
+        print(newDf[0])
 
         # open a file dialog to select the output file path
         output_file_path = filedialog.asksaveasfilename(

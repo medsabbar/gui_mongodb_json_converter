@@ -1,0 +1,2194 @@
+[
+    {
+        "labeleFr": "Tel. chef de ménage",
+        "key": "TelChef",
+        "labeleAr": "رقم هاتف رب الأسرة"
+    },
+    {
+        "labeleFr": "NNI chef de ménage",
+        "key": "NNIChef",
+        "labeleAr": "الرقم الوطني لرب الأسرة"
+    },
+    {
+        "labeleFr": "Nom du chef de ménage en français",
+        "key": "chefNameFr",
+        "labeleAr": "إسم رب الأسرة بالفرنسية"
+    },
+    {
+        "labeleFr": "Oui",
+        "key": "yes",
+        "labeleAr": "نعم"
+    },
+    {
+        "labeleFr": "Non",
+        "key": "no",
+        "labeleAr": "لا"
+    },
+    {
+        "labeleFr": "Nom de la mère du chef de ménage",
+        "key": "NomMereChef",
+        "labeleAr": "إسم والدة رب الأسرة"
+    },
+    {
+        "labeleFr": "Est-ce que le chef de ménage est enrôlé à l’Etat Civile ?",
+        "key": "ChefEstEnrole",
+        "labeleAr": "هل رب الأسرة مسجل في الحالة المدنية؟"
+    },
+    {
+        "labeleFr": "Pourquoi n’est-il pas enrôlé à l’Etat Civile ?",
+        "key": "Raisons",
+        "labeleAr": "لماذا ليس مسجلا في الحالة المدنية؟"
+    },
+    {
+        "labeleFr": "Nationalité du chef de ménage",
+        "key": "NationaliteChef",
+        "labeleAr": "جنسية رب الأسرة"
+    },
+    {
+        "labeleFr": "Est-ce que le chef de ménage est réfugié ?",
+        "key": "ChefRefugie",
+        "labeleAr": "هل رب الأسرة لاجئ؟"
+    },
+    {
+        "labeleFr": "inscrire le numéro proGres délivré par le HCR",
+        "key": "NbrProGres",
+        "labeleAr": "رقم اللاجئ المعطي من قبل (HCR)"
+    },
+    {
+        "labeleFr": "Réfrigérateur/congélateur",
+        "key": "PossRefr",
+        "labeleAr": "ثلاجة"
+    },
+    {
+        "labeleFr": "Quel est l'âge du chef de ménage ?",
+        "key": "AgeChef",
+        "labeleAr": "ما هو عمر رب الأسرة؟"
+    },
+    {
+        "labeleFr": "Quel est le sexe du chef de ménage ?",
+        "key": "SexeChef",
+        "labeleAr": "ما هو جنس رب الأسرة؟"
+    },
+    {
+        "labeleFr": "Homme",
+        "key": "male",
+        "labeleAr": "ذكر"
+    },
+    {
+        "labeleFr": "Femme",
+        "key": "female",
+        "labeleAr": "أنثى"
+    },
+    {
+        "labeleFr": "Quelle est la situation matrimoniale du chef de ménage",
+        "key": "SituatMatrChef",
+        "labeleAr": "ما هي الحالة الزواجية لرب الأسرة؟"
+    },
+    {
+        "labeleFr": "Célibataire",
+        "key": "single",
+        "labeleAr": "أعزب"
+    },
+    {
+        "labeleFr": "Marié(e)",
+        "key": "maried",
+        "labeleAr": "متزوج(ة)"
+    },
+    {
+        "labeleFr": "Divorcé(e)",
+        "key": "divorced",
+        "labeleAr": "مطلق (ة)"
+    },
+    {
+        "labeleFr": "Veuf/Veuve",
+        "key": "widowed",
+        "labeleAr": "مترمل(ة)"
+    },
+    {
+        "labeleFr": "Quel est le niveau d’instruction du chef de ménage ?",
+        "key": "NivEdChef",
+        "labeleAr": "ما هو المستوى التعليمي لرب الأسرة؟"
+    },
+    {
+        "labeleFr": "Primaire",
+        "key": "primary",
+        "labeleAr": "إبتدائي"
+    },
+    {
+        "labeleFr": "Coranique",
+        "key": "coran",
+        "labeleAr": "القرآن"
+    },
+    {
+        "labeleFr": "Secondaire",
+        "key": "secondary",
+        "labeleAr": "إعدادي"
+    },
+    {
+        "labeleFr": "Lycée",
+        "key": "highschool",
+        "labeleAr": "ثانوي"
+    },
+    {
+        "labeleFr": "Supérieur",
+        "key": "university",
+        "labeleAr": "جامعي/ عالي"
+    },
+    {
+        "labeleFr": "Aucun",
+        "key": "none",
+        "labeleAr": "لا شيئ"
+    },
+    {
+        "labeleFr": "Combien de personnes vivent dans le ménage ?",
+        "key": "NbrMbrMen",
+        "labeleAr": "كم عدد أعضاء الأسرة؟"
+    },
+    {
+        "labeleFr": "Nombre d’enfants de moins de 2 ans : ",
+        "key": "childrenLess2",
+        "labeleAr": "كم عدد الأطفال الذين تقل أعمارهم عن سنتين؟"
+    },
+    {
+        "labeleFr": "Nombre d’enfants de 6 à 14 ans non scolarisés : ",
+        "key": "children614",
+        "labeleAr": "عدد الأطفال ما بين 6 و 14 سنة ولا يدرسون"
+    },
+    {
+        "labeleFr": "Nombre de femmes enceintes",
+        "key": "pregnantNum",
+        "labeleAr": "كم عدد النساء الحوامل في الأسرة؟"
+    },
+    {
+        "labeleFr": "Ya-t-il de personne(s)vivant avec Handicap dans le ménage ? (Nombre)",
+        "key": "nbrHandicap",
+        "labeleAr": "هل يوجد شخص(أو أشخاص) يعيشون في الأسرة ولديهم إعاقة(العدد)"
+    },
+    {
+        "labeleFr": "Combien de personnes vivent avec une maladie chronique ?",
+        "key": "NbrMC",
+        "labeleAr": "كم عدد الأشخاص الذين يعانون من مرض مزمن"
+    },
+    {
+        "labeleFr": "Combien de personnes ont un revenu dans le ménage",
+        "key": "withRevenue",
+        "labeleAr": "كم من شخص ليده دخل في الأسرة؟"
+    },
+    {
+        "labeleFr": "Combien de personnes du ménage qui ne sont pas enregistrées à l’état civil ?",
+        "key": "nonRegisteredNum",
+        "labeleAr": "كم عدد أفراد الأسرة غير المسجلين في سجل الحالة المدنية؟"
+    },
+    {
+        "labeleFr": "Quel est le statut d’occupation du logement",
+        "key": "StatOccLog",
+        "labeleAr": "ما هو نمط حيازة المسكن؟"
+    },
+    {
+        "labeleFr": "Propriétaire",
+        "key": "own",
+        "labeleAr": "مالك"
+    },
+    {
+        "labeleFr": "Locataire",
+        "key": "rent",
+        "labeleAr": "مؤجرة"
+    },
+    {
+        "labeleFr": "Logement gratuit",
+        "key": "free_housing",
+        "labeleAr": "سكن مجاني"
+    },
+    {
+        "labeleFr": "Autre",
+        "key": "other",
+        "labeleAr": "أخرى"
+    },
+    {
+        "labeleFr": "Quel est le type principal du logement occupé par le ménage?",
+        "key": "housingType",
+        "labeleAr": "ما هو نوع المسكن الرئيسي الذي تشغله الأسرة؟"
+    },
+    {
+        "labeleFr": "Immeuble (plus d’un étage)",
+        "key": "big_house",
+        "labeleAr": "مبنى (أكثر من طابق)"
+    },
+    {
+        "labeleFr": "Villa",
+        "key": "villa",
+        "labeleAr": "فيلا"
+    },
+    {
+        "labeleFr": "Appartement",
+        "key": "apartment",
+        "labeleAr": "شقة"
+    },
+    {
+        "labeleFr": "Pièces indépendantes en dur",
+        "key": "indepent_piece",
+        "labeleAr": "غرف مستقلة من الصلب"
+    },
+    {
+        "labeleFr": "Tente",
+        "key": "tente"
+    },
+    {
+        "labeleFr": "Case/hutte",
+        "key": "case",
+        "labeleAr": "كوخ"
+    },
+    {
+        "labeleFr": "M'bar",
+        "key": "mbar",
+        "labeleAr": "مبار"
+    },
+    {
+        "labeleFr": "Baraque",
+        "key": "barac",
+        "labeleAr": "براك"
+    },
+    {
+        "labeleFr": "Maison Ordinaire en dur (Bêton)",
+        "key": "normal_house",
+        "labeleAr": "منزل عادي من الصلب (الإسمنت)"
+    },
+    {
+        "labeleFr": "Quel est le nombre des pièces du logement du ménage ?",
+        "key": "NbrPieces",
+        "labeleAr": "كم عدد غرف مسكنكم؟"
+    },
+    {
+        "labeleFr": "Quelle est la principale source d'approvisionnement en Eau ?",
+        "key": "waterSource",
+        "labeleAr": "ما هو المصدر الرئيسي للتزود بالماء؟"
+    },
+    {
+        "labeleFr": "Robinet dans le logement ou dans la concession",
+        "key": "house_robin",
+        "labeleAr": "حنفية داخل المسكن أو المبنى"
+    },
+    {
+        "labeleFr": "Robinet du voisin",
+        "key": "neighbor_robin",
+        "labeleAr": "حنفية الجيران"
+    },
+    {
+        "labeleFr": "Robinet public / Borne fontaine",
+        "key": "public_robin",
+        "labeleAr": "حنفية عمومية"
+    },
+    {
+        "labeleFr": "Citerne",
+        "key": "citerne",
+        "labeleAr": "صهريج ماء"
+    },
+    {
+        "labeleFr": "Quelle est la principale source d'énergie utilisée pour l'éclairage ?",
+        "key": "lightSource",
+        "labeleAr": "ما هو المصدر الرئيسي للطاقة المستخدمة للإضاءة؟"
+    },
+    {
+        "labeleFr": "Bougie/ Torche/ Lampe à gaz ou pétrole",
+        "key": "candle_torch",
+        "labeleAr": "شمعة / مصباح يدوي / مصباح غاز أو بترول"
+    },
+    {
+        "labeleFr": "Fil de courant chez le voisin",
+        "key": "neighbor_cable",
+        "labeleAr": "سلك كهرباء من عند الجيران"
+    },
+    {
+        "labeleFr": "Panneaux solaires/éoliens",
+        "key": "solar_panel",
+        "labeleAr": "الألواح الشمسية / الهوائية"
+    },
+    {
+        "labeleFr": "Branchement sur le réseau électrique",
+        "key": "electricity_network",
+        "labeleAr": "الاتصال بالشبكة الكهربائية"
+    },
+    {
+        "labeleFr": "Groupe électrogène",
+        "key": "PossGrpElectr",
+        "labeleAr": "مولد كهرباء"
+    },
+    {
+        "labeleFr": "Quel est le type de latrines le plus souvent utilisée par les membres du ménage ?",
+        "key": "TypeLatr",
+        "labeleAr": "ما هو نوع المراحيض التي يستخدمها أفراد الأسرة غالبًا؟"
+    },
+    {
+        "labeleFr": "Latrines modernes (fosses septiques ou reliées aux égouts)",
+        "key": "modern_toilet",
+        "labeleAr": "المراحيض الحديثة (خزانات الصرف الصحي أو المتصلة بالمجاري)"
+    },
+    {
+        "labeleFr": "Latrines traditionnelles (avec ou sans fosses perdues)",
+        "key": "traditional_toilet",
+        "labeleAr": "المراحيض التقليدية (مع أو بدون حفر)"
+    },
+    {
+        "labeleFr": "Cuvette/ baril",
+        "key": "baril",
+        "labeleAr": "وعاء / برميل"
+    },
+    {
+        "labeleFr": "Nature / Brousse",
+        "key": "nature",
+        "labeleAr": "الطبيعة \\ الخلاء"
+    },
+    {
+        "labeleFr": "Quelle a été la principale source de revenus de votre ménage au cours des 12 derniers mois ?",
+        "key": "PSRDD",
+        "labeleAr": "ما هو مصدر الدخل الرئيسي لأسرتك خلال الاثني عشر شهرًا الماضية؟"
+    },
+    {
+        "labeleFr": "Elevage",
+        "key": "breeding",
+        "labeleAr": "التنمية"
+    },
+    {
+        "labeleFr": "Commerce/Vente",
+        "key": "commerce",
+        "labeleAr": "التجارة / البيع"
+    },
+    {
+        "labeleFr": "Pêche",
+        "key": "fishing",
+        "labeleAr": "الصيد"
+    },
+    {
+        "labeleFr": "Mines et extraction",
+        "key": "mine",
+        "labeleAr": "المعادن والإستخراج"
+    },
+    {
+        "labeleFr": "Salarié informel",
+        "key": "informal_salery"
+    },
+    {
+        "labeleFr": "Tâcheron",
+        "key": "drudgery",
+        "labeleAr": "مقاول"
+    },
+    {
+        "labeleFr": "Salarié formal",
+        "key": "formal_salery"
+    },
+    {
+        "labeleFr": "Salarié journalier",
+        "key": "daily_wage",
+        "labeleAr": "أجير يومي"
+    },
+    {
+        "labeleFr": "Retraité/Pension",
+        "key": "retirement",
+        "labeleAr": "معاش التقاعد"
+    },
+    {
+        "labeleFr": "Aide/don/ mendicité",
+        "key": "help_gift",
+        "labeleAr": "مساعدة / تبرع / صدقة"
+    },
+    {
+        "labeleFr": "Précisez la source de revenus",
+        "key": "precise_income_source_last_year",
+        "labeleAr": "تحديد مصدر الدخل"
+    },
+    {
+        "labeleFr": "Quelle est la principale source d'énergie (combustible) utilisée pour faire la cuisine ?",
+        "key": "PSEC",
+        "labeleAr": "ما هو المصدر الرئيسي للطاقة (الوقود) المستخدمة في الطبخ؟"
+    },
+    {
+        "labeleFr": "Bois ramassé",
+        "key": "colected_wood",
+        "labeleAr": "حطب مجمع"
+    },
+    {
+        "labeleFr": "Bois acheté",
+        "key": "bought_wood",
+        "labeleAr": "حطب مشتري"
+    },
+    {
+        "labeleFr": "Charbon de bois",
+        "key": "wood_charcoal",
+        "labeleAr": "فحم الحطب"
+    },
+    {
+        "labeleFr": "Gaz",
+        "key": "gaz",
+        "labeleAr": "الغاز"
+    },
+    {
+        "labeleFr": "Electricité",
+        "key": "electricity",
+        "labeleAr": "الكهرباء"
+    },
+    {
+        "labeleFr": "Avez-vous du personnel de maison (Bonne, chauffeur, Gardien , Berger…) ?",
+        "key": "PersonnelMaison",
+        "labeleAr": "هل لديك عمال منزليون (خادمة ، سائق ، وصي ، راعي ...)؟"
+    },
+    {
+        "labeleFr": "Comment caractérisez la situation de votre ménage ?",
+        "key": "AMSituatMen",
+        "labeleAr": "كيف تصفون وضع أسرتكم؟"
+    },
+    {
+        "labeleFr": "Très pauvre",
+        "key": "so_poor",
+        "labeleAr": "فقير جدا"
+    },
+    {
+        "labeleFr": "Pauvre",
+        "key": "poor",
+        "labeleAr": "فقير"
+    },
+    {
+        "labeleFr": "Moyen",
+        "key": "average",
+        "labeleAr": "متوسط"
+    },
+    {
+        "labeleFr": "Riche",
+        "key": "wealthy",
+        "labeleAr": "غني"
+    },
+    {
+        "labeleFr": "Très riche",
+        "key": "so_wealthy",
+        "labeleAr": "غني جدا"
+    },
+    {
+        "labeleFr": "Animateur : Comment caractérisez-vous la situation du ménage ?",
+        "key": "AASituatMen",
+        "labeleAr": "العداد: كيف تصف وضع الأسرة؟"
+    },
+    {
+        "labeleFr": "Nom du répondant principal",
+        "key": "Repondant",
+        "labeleAr": "اسم المجيب الرئيسي"
+    },
+    {
+        "labeleFr": "Un autre numéro de téléphone pour des vérifications éventuelles",
+        "key": "AutreTel",
+        "labeleAr": "رقم هاتف آخر"
+    },
+    {
+        "labeleFr": "Les absents",
+        "key": "absent",
+        "labeleAr": "الغائبين"
+    },
+    {
+        "labeleFr": "Les refus",
+        "key": "refus",
+        "labeleAr": "الرافضين"
+    },
+    {
+        "labeleFr": "Les doublons",
+        "key": "doublon",
+        "labeleAr": "المتكررين"
+    },
+    {
+        "labeleFr": "Possédez-vous les biens d’équipements suivants en état de fonctionnement ?",
+        "key": "doYouHaveOneOrMore",
+        "labeleAr": "هل تملكون التجهيزات التالية (قابلة للإستعمال)؟"
+    },
+    {
+        "labeleFr": "Cuisine moderne",
+        "key": "PossCuisMod",
+        "labeleAr": "مطبخ حديث"
+    },
+    {
+        "labeleFr": "Climatiseur",
+        "key": "PossClim",
+        "labeleAr": "مكيف"
+    },
+    {
+        "labeleFr": "Chauffe-eau électrogène",
+        "key": "PossChauffeEau",
+        "labeleAr": "سخان مياه كهربائي"
+    },
+    {
+        "labeleFr": "Voiture",
+        "key": "PossVoit",
+        "labeleAr": "سيارة"
+    },
+    {
+        "labeleFr": "Lit",
+        "key": "PossLit",
+        "labeleAr": "سرير"
+    },
+    {
+        "labeleFr": "Télévision",
+        "key": "PossTele",
+        "labeleAr": "تلفاز"
+    },
+    {
+        "labeleFr": "Pirogue/Bateau",
+        "key": "PossPirogBat",
+        "labeleAr": "زورق / قارب"
+    },
+    {
+        "labeleFr": "Fer à repasser électrique",
+        "key": "PossFer",
+        "labeleAr": "مكواة كهربائية"
+    },
+    {
+        "labeleFr": "Bicyclette ou moto",
+        "key": "PossMoto",
+        "labeleAr": "دراجة أو دراجة نارية"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage ou un membre du ménage a déjà bénéficié de l'assistance d'un ou de plusieurs des départements ou des programmes suivants ?",
+        "key": "benefitsFromServices",
+        "labeleAr": "هل تلقت الأسرة أو أي عضو منها مساعدة من واحد أو أكثر من الأقسام أو البرامج التالية؟"
+    },
+    {
+        "labeleFr": "Taazour Boutique",
+        "key": "taazour_boutique",
+        "labeleAr": "دكاكين تآزر"
+    },
+    {
+        "labeleFr": "SNDP",
+        "key": "sndp",
+        "labeleAr": "الشركة الوطنية لتوزيع الأسماك"
+    },
+    {
+        "labeleFr": "MASEF",
+        "key": "masef",
+        "labeleAr": "وزارة العمل الاجتماعي والطفولة والاسرة"
+    },
+    {
+        "labeleFr": "CSA",
+        "key": "csa",
+        "labeleAr": "مفوضية الأمن الغذائي"
+    },
+    {
+        "labeleFr": "ONG nationales (Besma Wa Emel, Ghouloub mouhsina …. Etc.)",
+        "key": "ong_nationale",
+        "labeleAr": "المنظمات الوطنية غير الحكومية(بسمة وأمل ، غلوب محسنة .... إلخ)"
+    },
+    {
+        "labeleFr": "ONG internationales (PAM, UNICEF …. Etc.)",
+        "key": "ong_internationale",
+        "labeleAr": "المنظمات الدولية غير الحكومية (برنامج الأغذية العالمي ، واليونيسيف ... إلخ)"
+    },
+    {
+        "labeleFr": "Nom de famille en français",
+        "key": "familyNameFr",
+        "labeleAr": "الإسم العائلي لرب الأسرة بالفرنسية"
+    },
+    {
+        "labeleFr": "Clôturée",
+        "key": "closed",
+        "labeleAr": "تم الإنهاء"
+    },
+    {
+        "labeleFr": "Catégorie",
+        "key": "category",
+        "labeleAr": "الفئة"
+    },
+    {
+        "labeleFr": "Nomadisme pastoral",
+        "key": "nomad_pasto",
+        "labeleAr": "البداوة الرعوية"
+    },
+    {
+        "labeleFr": "Minière et pastoral",
+        "key": "minie_pasto",
+        "labeleAr": "التعدين والرعوية"
+    },
+    {
+        "labeleFr": "Pastorale – oasis et oued",
+        "key": "pasto_oas_oud",
+        "labeleAr": "رعوي - واحات ووديان"
+    },
+    {
+        "labeleFr": "Littorale–pêche",
+        "key": "lit_pech",
+        "labeleAr": "الصيد الساحلي"
+    },
+    {
+        "labeleFr": "Pastorale et commerce",
+        "key": "pasto_commerc",
+        "labeleAr": "الرعوية والتجارية"
+    },
+    {
+        "labeleFr": "Transhumance Pastorale",
+        "key": "trans_pasto",
+        "labeleAr": "الترحال الرعوي"
+    },
+    {
+        "labeleFr": "Agro pastorale",
+        "key": "agr_pasto",
+        "labeleAr": "الزراعة الرعوية"
+    },
+    {
+        "labeleFr": "Vallée du fleuve Sénégal",
+        "key": "flev_seneg",
+        "labeleAr": "وادي نهر السنغال"
+    },
+    {
+        "labeleFr": "Culture pluviale",
+        "key": "cult_pulv",
+        "labeleAr": "الزراعة البعلية"
+    },
+    {
+        "labeleFr": "Forage",
+        "key": "Forage",
+        "labeleAr": "حفر"
+    },
+    {
+        "labeleFr": "Puits",
+        "key": "Puits",
+        "labeleAr": "بئر"
+    },
+    {
+        "labeleFr": "Adduction d’Eau Potable (AEP)",
+        "key": "AEP",
+        "labeleAr": "إمداد مياه الشرب"
+    },
+    {
+        "labeleFr": "Fleuve",
+        "key": "Fleuve",
+        "labeleAr": "نهر"
+    },
+    {
+        "labeleFr": "Mare permanente",
+        "key": "mare",
+        "labeleAr": "بركة دائمة"
+    },
+    {
+        "labeleFr": "Oued",
+        "key": "oued",
+        "labeleAr": "وادي"
+    },
+    {
+        "labeleFr": "Source",
+        "key": "source",
+        "labeleAr": "المصدر"
+    },
+    {
+        "labeleFr": "Autre",
+        "key": "autre",
+        "labeleAr": "آخر"
+    },
+    {
+        "labeleFr": "Nom",
+        "key": "namef",
+        "labeleAr": "الإسم العائلي"
+    },
+    {
+        "labeleFr": "Sexe",
+        "key": "sex",
+        "labeleAr": "الجنس"
+    },
+    {
+        "labeleFr": "Arabe",
+        "key": "arab",
+        "labeleAr": "العربية"
+    },
+    {
+        "labeleFr": "Poular",
+        "key": "polar",
+        "labeleAr": "البلارية"
+    },
+    {
+        "labeleFr": "Soninké",
+        "key": "sonik",
+        "labeleAr": "السونونكية"
+    },
+    {
+        "labeleFr": "Wolof",
+        "key": "wolof",
+        "labeleAr": "الولفية"
+    },
+    {
+        "labeleFr": "Activités économiques",
+        "key": "activ_econom",
+        "labeleAr": "الأنشطة الإقتصادية"
+    },
+    {
+        "labeleFr": "Diéri",
+        "key": "dieri",
+        "labeleAr": "زراعة ديري"
+    },
+    {
+        "labeleFr": "Bas–fond/barrage",
+        "key": "bas_fond",
+        "labeleAr": "زراعة المياه الضحلة / سد"
+    },
+    {
+        "labeleFr": "Irriguée",
+        "key": "irrigue",
+        "labeleAr": "زراعة الري"
+    },
+    {
+        "labeleFr": "Maraîchage",
+        "key": "maraichage",
+        "labeleAr": "سوق البستنة"
+    },
+    {
+        "labeleFr": "Walo",
+        "key": "walo",
+        "labeleAr": "والو"
+    },
+    {
+        "labeleFr": "Décrue contrôlée",
+        "key": "decrue",
+        "labeleAr": "الانحدار المتحكم فيه"
+    },
+    {
+        "labeleFr": "Culture oasienne",
+        "key": "culture_oas",
+        "labeleAr": "ثقافة الواحات"
+    },
+    {
+        "labeleFr": "Elevage",
+        "key": "elevage",
+        "labeleAr": "التنمية الحيوانية"
+    },
+    {
+        "labeleFr": "Pêche",
+        "key": "peche",
+        "labeleAr": "صيد السمك"
+    },
+    {
+        "labeleFr": "Industrie",
+        "key": "industrie",
+        "labeleAr": "الصناعة"
+    },
+    {
+        "labeleFr": "Mines",
+        "key": "mines",
+        "labeleAr": "التعدين"
+    },
+    {
+        "labeleFr": "Autres",
+        "key": "others",
+        "labeleAr": "أخرى"
+    },
+    {
+        "labeleFr": "Pièces indépendantes semi dur",
+        "key": "indepent_piece2",
+        "labeleAr": "غرف مستقلة شبه إسمنتية"
+    },
+    {
+        "labeleFr": "Maison Ordinaire semi dur",
+        "key": "normalhousessemi",
+        "labeleAr": "منزل عادي شبه إسمنت"
+    },
+    {
+        "labeleFr": "Quel est le matériau principal du toit de logement?",
+        "key": "roofMaterial",
+        "labeleAr": "ما هي المادة الرئيسية المستخدمة في سقف المسكن؟"
+    },
+    {
+        "labeleFr": "Combien d'animaux parmi les suivants le Ménage ou l'un de ses membres possède-t-il ?",
+        "key": "animals",
+        "labeleAr": "كم تمتلك الأسرة أو أحد أعضائها من الحيوانات التالية؟"
+    },
+    {
+        "labeleFr": "Combien d’hectares de terres agricoles le Ménage ou l’un de ses membres possède-t-il ?",
+        "key": "farm_land",
+        "labeleAr": "كم هكتارا من الأراضي الزراعية تمتلك الأسرة أو أي من أفرادها؟"
+    },
+    {
+        "labeleFr": "Quel est le matériau principal des murs du logement",
+        "key": "wallMaterial",
+        "labeleAr": "ما هي المادة الأساسية لجدران المسكن"
+    },
+    {
+        "labeleFr": "Quelle est la nature du sol du logement",
+        "key": "floorMaterial",
+        "labeleAr": "ما هو نوع أرضية المسكن"
+    },
+    {
+        "labeleFr": "Carrelage",
+        "key": "carrelage",
+        "labeleAr": "بلاط ارضي (كاراو)"
+    },
+    {
+        "labeleFr": "Branchements collectifs (Niche)",
+        "key": "b_collectif",
+        "labeleAr": "إشتراك جماعي(نيش)"
+    },
+    {
+        "labeleFr": "Cueillette",
+        "key": "cueillette",
+        "labeleAr": "القطف"
+    },
+    {
+        "labeleFr": "Quels handicaps? (un handicap majeur par personne)",
+        "key": "what_hadicap",
+        "labeleAr": "إي إعاقات؟ (إعاقة كبيرة واحدة لكل شخص)"
+    },
+    {
+        "labeleFr": "Est-ce qu’un/plusieurs membres du ménage a un handicap qui fait qu’un autre membre du ménage doit l’assister de manière permanente ?",
+        "key": "family_handicap",
+        "labeleAr": "هل يعاني عضو أو أكثر من أعضاء الأسرة من إعاقة تتطلب عضوا آخر يقدم له المساعدتهم بشكل دائم؟"
+    },
+    {
+        "labeleFr": "Est-ce qu’un/plusieurs membres du ménage souffre-t-il d'une maladie chronique ?",
+        "key": "has_cronic_illness",
+        "labeleAr": "هل يعاني عضو/ أعضاء من الأسر من واحد من الأمراض المزمنة"
+    },
+    {
+        "labeleFr": "Nombre de membres du ménage souffrant d'Insuffisance rénale",
+        "key": "renal_insufisian",
+        "labeleAr": "عدد أفراد الأسرة المصابين بالفشل الكلوي"
+    },
+    {
+        "labeleFr": "Nombre de membres du ménage souffrant de diabète",
+        "key": "debetes",
+        "labeleAr": "عدد أفراد الأسرة المصابين بداء السكري"
+    },
+    {
+        "labeleFr": "Nombre de membres du ménage souffrant de maladie cardiaque",
+        "key": "cardiaque",
+        "labeleAr": "عدد أفراد الأسرة المصابين بأمراض القلب"
+    },
+    {
+        "labeleFr": "Nombre de membres du ménage souffrant d'une autre maladie chronique",
+        "key": "otherIllness",
+        "labeleAr": "عدد أفراد الأسرة المصابين بمرض مزمن آخر"
+    },
+    {
+        "labeleFr": "Est-ce qu’un/plusieurs membres du ménage a une assurance-maladie ? ",
+        "key": "asurrance",
+        "labeleAr": "هل لدى عضو /عدد من أعضاء الأسرة تأمين صحي؟"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage ou un membre du ménage est propriétaire d'un autre logement ?",
+        "key": "otherHouse",
+        "labeleAr": "هل تمتلك الآسرة أو أحد أعضائها مسكنا آخر؟"
+    },
+    {
+        "labeleFr": "Est ce que le ménage possède des terres agricoles ? ",
+        "key": "farmingLand",
+        "labeleAr": "هل تمتلك الأسرة أراضي زراعية؟"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage possède des champs de walo ? Combien de Moud ?",
+        "key": "waloLand",
+        "labeleAr": "هل لدا الأسرة حقلا في المناطق الفيضية؟"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage possède des champs de diri ?Combien de Moud ?",
+        "key": "diriLand",
+        "labeleAr": "هل تمتلك الأسرة حقلا من الحقول المطرية؟"
+    },
+    {
+        "labeleFr": "Le ménage met-il en valeur des terres agricoles qu'il ne possède pas ?",
+        "key": "freeFarmLand",
+        "labeleAr": "هل تقوم الأسرة باستغلال أراضي زراعية لا تملكها؟"
+    },
+    {
+        "labeleFr": "Compte bancaire",
+        "key": "banc_ac",
+        "labeleAr": "حساب بنكي"
+    },
+    {
+        "labeleFr": "Téléphone Fixe",
+        "key": "landline_phone",
+        "labeleAr": "هاتف ثابت"
+    },
+    {
+        "labeleFr": "Téléphone Portable",
+        "key": "port_phone",
+        "labeleAr": "هاتف محمول"
+    },
+    {
+        "labeleFr": "Bijoux en or",
+        "key": "gold_acce",
+        "labeleAr": "مجوهرات ذهبيه"
+    },
+    {
+        "labeleFr": "Charrette",
+        "key": "cart",
+        "labeleAr": "عربة (شاريت)"
+    },
+    {
+        "labeleFr": "Salons complet (Matelas, Tapis, etc.)",
+        "key": "salon_comple",
+        "labeleAr": "صالون مكتمل (حشايا, بساط.. إلخ)"
+    },
+    {
+        "labeleFr": "Lit + Matelas",
+        "key": "matlas",
+        "labeleAr": "سرير + حشايا"
+    },
+    {
+        "labeleFr": "Antenne parabolique",
+        "key": "antenne",
+        "labeleAr": "طبق استقبال تلفزيوني"
+    },
+    {
+        "labeleFr": "Radio/radio cassette",
+        "key": "radio",
+        "labeleAr": "راديو / مسجل"
+    },
+    {
+        "labeleFr": "Ordinateur",
+        "key": "computer",
+        "labeleAr": "حاسوب"
+    },
+    {
+        "labeleFr": "Ventilateur",
+        "key": "fan",
+        "labeleAr": "مروحة كهربائية"
+    },
+    {
+        "labeleFr": "Connexion internet",
+        "key": "internet",
+        "labeleAr": "الأتصال الإنترنت"
+    },
+    {
+        "labeleFr": "Matelas simple",
+        "key": "simpl_mat",
+        "labeleAr": "حشايا عادية"
+    },
+    {
+        "labeleFr": "Autres meubles",
+        "key": "other_mat",
+        "labeleAr": "أثاث آخر"
+    },
+    {
+        "labeleFr": "Brouette",
+        "key": "brouette",
+        "labeleAr": "عربة يدوية (بروت)"
+    },
+    {
+        "labeleFr": "Tente",
+        "key": "tent",
+        "labeleAr": "خيمة"
+    },
+    {
+        "labeleFr": "Sans logement",
+        "key": "no_housse",
+        "labeleAr": "بدون مسكن"
+    },
+    {
+        "labeleFr": "Terre",
+        "key": "terre",
+        "labeleAr": "الطين"
+    },
+    {
+        "labeleFr": "Paille",
+        "key": "paille",
+        "labeleAr": "القش"
+    },
+    {
+        "labeleFr": "Bois",
+        "key": "bois",
+        "labeleAr": "الخشب"
+    },
+    {
+        "labeleFr": "Tôles en métal/Zinc",
+        "key": "toles_zinc",
+        "labeleAr": "زينك أو صفائح الحديد"
+    },
+    {
+        "labeleFr": "Ciment/béton",
+        "key": "ciment_beton",
+        "labeleAr": "الإسمنت\\الإسمنت المسلح"
+    },
+    {
+        "labeleFr": "Pierres",
+        "key": "pier",
+        "labeleAr": "الحجارة"
+    },
+    {
+        "labeleFr": "Briques cuites",
+        "key": "bric",
+        "labeleAr": "الطوب المسخن"
+    },
+    {
+        "labeleFr": "Tissu\\bache",
+        "key": "tissu",
+        "labeleAr": "النسيج / باش"
+    },
+    {
+        "labeleFr": "Tôles en métal",
+        "key": "tole_metal",
+        "labeleAr": "صفائح معدنية"
+    },
+    {
+        "labeleFr": "Eau de pluie",
+        "key": "pluie",
+        "labeleAr": "مياه الأمطار"
+    },
+    {
+        "labeleFr": "Dans le logement",
+        "key": "log_robin",
+        "labeleAr": "في السكن"
+    },
+    {
+        "labeleFr": "Puits à pompe forage",
+        "key": "pomp_fourage",
+        "labeleAr": "بئر ذات مضخ"
+    },
+    {
+        "labeleFr": "Puits protégé",
+        "key": "protec_puit",
+        "labeleAr": "بإئر محمي"
+    },
+    {
+        "labeleFr": "Puits non protégé",
+        "key": "n_protec_puit",
+        "labeleAr": "بإر غير محمي"
+    },
+    {
+        "labeleFr": "fontaine(Irigi) protégée",
+        "key": "font_protec_irig",
+        "labeleAr": "نافورة محمية (Irigi)"
+    },
+    {
+        "labeleFr": "fontaine(Irigi)non protégée",
+        "key": "font_n_protec_irig",
+        "labeleAr": "نافورة (Irigi) غير محمية"
+    },
+    {
+        "labeleFr": "Camion-citerne",
+        "key": "cam_citern",
+        "labeleAr": "ناقلة مياه"
+    },
+    {
+        "labeleFr": "Charrette",
+        "key": "charrete",
+        "labeleAr": "عربة"
+    },
+    {
+        "labeleFr": "Eau de surface (rivière, fleuve, barrage, lac, mare, canal, canal d’irrigation)",
+        "key": "surface_water",
+        "labeleAr": "المياه السطحية (نهر ، مجرى ، سد ، بحيرة ، بركة ، قناة ، قناة ري)"
+    },
+    {
+        "labeleFr": "Eau en bouteille",
+        "key": "bottle_w",
+        "labeleAr": "مياه معبأة"
+    },
+    {
+        "labeleFr": "Toilettes avec chasse d'eau",
+        "key": "toilet_chac",
+        "labeleAr": "مرحاص مع حاوية مياه"
+    },
+    {
+        "labeleFr": "Pas de toilettes",
+        "key": "no_toilet",
+        "labeleAr": "بدون مراحيض"
+    },
+    {
+        "labeleFr": "Toilettes publiques",
+        "key": "pub_toilet",
+        "labeleAr": "مراحيض عامة"
+    },
+    {
+        "labeleFr": "Latrine à fausse",
+        "key": "fos_toil",
+        "labeleAr": "مرحاض مع حفرة"
+    },
+    {
+        "labeleFr": "Lampe à pétrole",
+        "key": "lamp_petrol",
+        "labeleAr": "مصباح الزيت"
+    },
+    {
+        "labeleFr": "Lampe à gaz",
+        "key": "lamp_gaz",
+        "labeleAr": "مصباح غاز"
+    },
+    {
+        "labeleFr": "Bougies",
+        "key": "bogie",
+        "labeleAr": "شموع"
+    },
+    {
+        "labeleFr": "Electricité (réseau)",
+        "key": "reseau_elect",
+        "labeleAr": "الكهرباء (الشبكة)"
+    },
+    {
+        "labeleFr": "Torche",
+        "key": "torch",
+        "labeleAr": "شعلة"
+    },
+    {
+        "labeleFr": "Quelles sont les trois (3) principales sources d'alimentation de votre ménage ?",
+        "key": "food_source",
+        "labeleAr": "ما هي المصادر الرئيسية الثلاثة (3) لغذاء أسرتكم؟"
+    },
+    {
+        "labeleFr": "Production propre (cueillette, chasse, pêche)",
+        "key": "prop_prod",
+        "labeleAr": "الإنتاج الذاتي (الجمع ، الصيد ، الصيد البحري)"
+    },
+    {
+        "labeleFr": "Achat",
+        "key": "buy",
+        "labeleAr": "الشراء"
+    },
+    {
+        "labeleFr": "Emprunt",
+        "key": "lend",
+        "labeleAr": "إقتراض"
+    },
+    {
+        "labeleFr": "Don d’amis, voisins, parents",
+        "key": "frend_give",
+        "labeleAr": "هدية من الأصدقاء أوالجيران أوالأقارب"
+    },
+    {
+        "labeleFr": "Aide alimentaire, activité de vivres contre travail",
+        "key": "food_work",
+        "labeleAr": "مساعدة غذائية، نشاط الغذاء مقابل العمل"
+    },
+    {
+        "labeleFr": "1 repas",
+        "key": "one_meal",
+        "labeleAr": "وجبة واحدة"
+    },
+    {
+        "labeleFr": "2 repas",
+        "key": "two_meals",
+        "labeleAr": "وجبتين"
+    },
+    {
+        "labeleFr": "3 repas",
+        "key": "three_meals",
+        "labeleAr": "ثلاث وجبات"
+    },
+    {
+        "labeleFr": "plus de 3 repas",
+        "key": "more_three",
+        "labeleAr": "أكثر من ثلاث وجبات"
+    },
+    {
+        "labeleFr": "Quel est le nombre de repas consommé par jour par votre ménage ?",
+        "key": "meal_count",
+        "labeleAr": "ما هو عدد الوجبات اليومية المستهلكة من طرف أسرتكم؟"
+    },
+    {
+        "labeleFr": "Au cours des 7 derniers jours, est-ce que quelqu'un dans votre ménage a dû faire l'une des choses suivantes par ce que vous n'avez pas assez de nourriture ou d'argent pour en acheter.  (Utilisez les chiffres de 0-7 pour montrer le nombre de jours ; utilisez P pour indiquer pas possible)",
+        "key": "cant_offer_meals",
+        "labeleAr": "في الأيام السبعة الماضية، هل اضطر أي شخص في أسرتكم إلى القيام بأي مما يلي لأنه لم يكن لديكم ما يكفي من الغذاء أو النقود لشرائه. (استخدم الأرقام من 0 إلى 7 من أجل توضيح عدد الأيام، والحرف P لعدم إمكانية ذلك)"
+    },
+    {
+        "labeleFr": "Manger des aliments moins préférés et moins chers ?",
+        "key": "lesFavrable",
+        "labeleAr": "تناول أطعمة غير مفضلة وأقل تكلفة"
+    },
+    {
+        "labeleFr": "Emprunter de la nourriture, ou demander de l'aide d'un ami ou d’une famille ?",
+        "key": "lendForFood",
+        "labeleAr": "استلاف الطعام أو طلب المساعدة من صديق أو أسرة"
+    },
+    {
+        "labeleFr": "Diminuer la quantité consommée pendant les repas",
+        "key": "reduceFood",
+        "labeleAr": "تقليل الكمية المستهلكة خلال الوجبات"
+    },
+    {
+        "labeleFr": "Restreindre la consommation des adultes pour permettre aux plus jeunes de manger davantage",
+        "key": "reduceFoodAdult",
+        "labeleAr": "تقليل استهلاك البالغين للسماح للصغار بتناول المزيد من الطعام"
+    },
+    {
+        "labeleFr": "Diminuer le nombre de repas par jour",
+        "key": "reduceMealCount",
+        "labeleAr": "تقليل عدد الوجبات في اليوم"
+    },
+    {
+        "labeleFr": "Au cours des 30 derniers jours, est-ce que quelqu'un dans votre ménage a dû faire l'une des choses suivantes parce qu'il n'y avait pas assez de nourriture ou d'argent pour l'acheter ?",
+        "key": "did_because_no_money",
+        "labeleAr": "خلال 30 يوما الأخيرة هل كان على أي عضو من أسرتكم أن يقوم بأي شيء مما يلي بسبب عدم توفر ما يكفي من الطعام أو النقود لشرائه"
+    },
+    {
+        "labeleFr": "Handicap visuel / auditif",
+        "key": "visual_handicap",
+        "labeleAr": "إعاقة بصرية أو سمعية"
+    },
+    {
+        "labeleFr": "Handicap moteur",
+        "key": "physic_Handicap",
+        "labeleAr": "إعاقة جسدية"
+    },
+    {
+        "labeleFr": "Handicap mental",
+        "key": "mental_handicap",
+        "labeleAr": "إعاقة عقلية"
+    },
+    {
+        "labeleFr": "Non, aucun membre n'est couvert par une assurance maladie",
+        "key": "no_assurance",
+        "labeleAr": "لا, لايوجد عضو مشمول بالتأمين الصحي"
+    },
+    {
+        "labeleFr": "Oui, un ou plusieurs membres sont couverts aux frais de l'employeur",
+        "key": "work_assurance",
+        "labeleAr": "نعم ، يتم تغطية عضو أو أكثر على نفقة رب العمل"
+    },
+    {
+        "labeleFr": "Oui, un ou plusieurs membres ont un compte personnel",
+        "key": "personal_assurrance",
+        "labeleAr": "نعم ، عضو أو أكثر على حسابه الشخصي"
+    },
+    {
+        "labeleFr": "Oui, les membres sont couverts aux frais du chef de famille",
+        "key": "chef_assurace",
+        "labeleAr": "نعم ، تتم تغطية الأفراد على نفقة رب الأسرة"
+    },
+    {
+        "labeleFr": "Est-ce qu’un/plusieurs membres du ménage a bénéficié d’un programme (de l’Etat ou autre) au cours des 12 derniers mois ? Si oui, cocher les principaux programmes dont un ou plusieurs membres de votre ménage a bénéficié au cours des 12 derniers mois ?",
+        "key": "state_programs",
+        "labeleAr": "خلال ال 12 شهرا الأخيرة, هل استفاد واحد أو أكثر من أعضاء الأسرة من برامج (الدولة أو آخر)"
+    },
+    {
+        "labeleFr": "Programme de transfert alimentaire",
+        "key": "food_transfer",
+        "labeleAr": "برنامج تحويل الغذاء"
+    },
+    {
+        "labeleFr": "Bons d'alimentation",
+        "key": "food_tikets",
+        "labeleAr": "تقسيم أغذية"
+    },
+    {
+        "labeleFr": "Secours aux sinistrés (CSA)",
+        "key": "sinist_help",
+        "labeleAr": "مساعدة من مفوضية الأمن الغذائي إثر كارثة أو نكبة"
+    },
+    {
+        "labeleFr": "Appui financier (MASEF)",
+        "key": "money_help",
+        "labeleAr": "دعم مالي من وزارة الشؤون الاجتماعية والطفولة والأسرة"
+    },
+    {
+        "labeleFr": "Programme EMEL",
+        "key": "emel",
+        "labeleAr": "برنامج تموين"
+    },
+    {
+        "labeleFr": "SAVS",
+        "key": "savs",
+        "labeleAr": "المخازن القروية للأمن الغذائي"
+    },
+    {
+        "labeleFr": "Distribution gratuite de nourriture (CSA, PAM ou autre)",
+        "key": "free_food_dist",
+        "labeleAr": "التوزيع المجاني للأغذية (مفوضية الأمن الغذائي, برنامج الغذاء العالمي, آخر)"
+    },
+    {
+        "labeleFr": "CRENAM ou CAC",
+        "key": "crenam",
+        "labeleAr": "المركز الأهلي للتغذية (مركز التأهيل والتهذيب في مجال التغذية"
+    },
+    {
+        "labeleFr": "Programme d'alimentation scolaire",
+        "key": "school_food",
+        "labeleAr": "برنامج التغذية المدرسية"
+    },
+    {
+        "labeleFr": "Programme d'insertion et d'appui à la micro entreprise",
+        "key": "micro_enterprise",
+        "labeleAr": "برنامج دمج ودعم المنشآت الصغيرة"
+    },
+    {
+        "labeleFr": "Programme d’activité pour la génération de revenu (MASEF)",
+        "key": "revenu_generation",
+        "labeleAr": "برنامج دعم الأنشطة المدرة للدخل وزارة الشؤون الاجتماعية و الطفولة والأسرة"
+    },
+    {
+        "labeleFr": "Microprojets de développement communautaire (CSA)",
+        "key": "community_micro_proj",
+        "labeleAr": "المشاريع الصغرى للتنمية الجمعوية (مفوضية الأمن الغذائي)"
+    },
+    {
+        "labeleFr": "Programme d’appui aux handicapés (MASEF)",
+        "key": "handicap_help",
+        "labeleAr": "برنامج دعم المعوقين (وزارة الشؤون الاجتماعية والطفولة والأسرة)"
+    },
+    {
+        "labeleFr": "Programme Forfait obstétrical",
+        "key": "f_obsterical",
+        "labeleAr": "برنامج التكلفة الجزافية التوليد"
+    },
+    {
+        "labeleFr": "Autres programmes",
+        "key": "other_prog",
+        "labeleAr": "برامج أخرى"
+    },
+    {
+        "labeleFr": "Programme de résilience",
+        "key": "res_prog",
+        "labeleAr": "برنامج للصمود"
+    },
+    {
+        "labeleFr": "Programme d'insertion et d'emploi",
+        "key": "work_prog",
+        "labeleAr": "برنامج الاندماج والتوظيف"
+    },
+    {
+        "labeleFr": "Métayage",
+        "key": "met",
+        "labeleAr": "مزارعة"
+    },
+    {
+        "labeleFr": "Terre privée gratuite",
+        "key": "priv_land",
+        "labeleAr": "أرض خاصة مجانية"
+    },
+    {
+        "labeleFr": "Terre d'accès libre",
+        "key": "free_land",
+        "labeleAr": "أرض سائبة"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage met en valeur des champs de walo  qui ne lui appartiennent pas ? Combien de Moud ?",
+        "key": "waloLandNoProp",
+        "labeleAr": "هل تستغل الأسرة حقلا في المناطق الفيضية لا تمتلكه؟"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage met en valeur des champs de diri  qui ne lui appartiennent pas ? Combien de Moud ?",
+        "key": "diriLandNoProp",
+        "labeleAr": "هل تستغل الأسرة حقلا خلف السدود لا تملكه؟"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage met en valeur des casiers irrigués qui ne lui appartiennent pas ? Combien de casiers ?",
+        "key": "irigueLandNoProp",
+        "labeleAr": "هل تستغل الأسرة أراضي مروية لا تملكها؟"
+    },
+    {
+        "labeleFr": "Combien de volailles le ménage possède-t-il actuellement ?",
+        "key": "chiken",
+        "labeleAr": "كم من الدجاج والطيور تملك الأسرة حاليا؟"
+    },
+    {
+        "labeleFr": "Combien de têtes de chèvres  le ménage possède-t-il actuellement ?",
+        "key": "goat",
+        "labeleAr": "كم عدد رؤوس الماعز التي تمتلكها الأسرة حاليا؟"
+    },
+    {
+        "labeleFr": "Combien de têtes de mouton le ménage possède-t-il actuellement ?",
+        "key": "sheep",
+        "labeleAr": "كم عدد رؤوس الماعز التي تمتلكها الأسرة حاليا؟"
+    },
+    {
+        "labeleFr": "Combien de têtes d'ânes le ménage possède-t-il actuellement ?",
+        "key": "donkey",
+        "labeleAr": "كم من رؤوس الحمير تمتلك الأسرة حاليا ؟"
+    },
+    {
+        "labeleFr": "Combien de têtes de chevaux le ménage possède-t-il actuellement ?",
+        "key": "horse",
+        "labeleAr": "كم من رؤوس الخيل تمتلك الأسرة حاليا ؟"
+    },
+    {
+        "labeleFr": "Combien de têtes de bovins le ménage possède-t-il actuellement ?",
+        "key": "cattle",
+        "labeleAr": "كم رأس ماشية تمتلكه الأسرة حاليا؟"
+    },
+    {
+        "labeleFr": "Combien de têtes de camelins le ménage possède-t-il actuellement ?",
+        "key": "camel",
+        "labeleAr": "ما هو عدد رؤوس الجمال التي تمتلكها الأسرة حاليا؟"
+    },
+    {
+        "labeleFr": "Est-ce que le ménage ou un membre du ménage possède- t-il un des biens suivants ?  ",
+        "key": "familyHasAny",
+        "labeleAr": "هل تمتلك الأسرة أو أي فرد من أفرادها أيًا مما يلي؟"
+    },
+    {
+        "labeleFr": "Machine à laver",
+        "key": "PossMachLaver",
+        "labeleAr": "غسالة"
+    },
+    {
+        "labeleFr": "Préciser principales sources d'alimentation de votre ménage",
+        "key": "precise_food",
+        "labeleAr": "حدد المصادر الرئيسية للغذاء لأسرتك"
+    },
+    {
+        "labeleFr": "Vendre des actifs domestiques (radio, meubles, bijoux, vêtements etc.) ",
+        "key": "sellDomestique",
+        "labeleAr": "بيع الأدوات المنزلية (تلفزيون، أثاث، مجوهرات، ملابس، إلخ.......)"
+    },
+    {
+        "labeleFr": "Vendre des animaux plus que d'habitude",
+        "key": "sellAnim",
+        "labeleAr": "بيع حيوانات أكثر من المعتاد"
+    },
+    {
+        "labeleFr": "Dépenser son épargne",
+        "key": "spendSaving",
+        "labeleAr": "إنفاق المدخرات"
+    },
+    {
+        "labeleFr": "Emprunter de l'argent/ nourriture",
+        "key": "lendMoneyFood",
+        "labeleAr": "استلاف المال أو الطعام"
+    },
+    {
+        "labeleFr": "Vendre des actifs productifs ou moyens de transport (machine à coudre, brouette, vélo, etc.)",
+        "key": "sellProductif",
+        "labeleAr": "بيع الأصول المنتجة أو وسائل النقل ( خياطة, عربة , دراجة , إلخ)"
+    },
+    {
+        "labeleFr": "Réduire les dépenses non alimentaires essentielles telles que l'éducation, santé (compris les médicaments)",
+        "key": "reduceExpences",
+        "labeleAr": "تقليل النفقات الأساسية غير الغذائية مثل التعليم والصحة (بما في ذلك الأدوية)"
+    },
+    {
+        "labeleFr": "Retirer un ou plusieurs enfants de l'école",
+        "key": "childenOutSchool",
+        "labeleAr": "سحب طفل أو أكثر من المدرسة"
+    },
+    {
+        "labeleFr": "Vendre la maison, la parcelle de terrain ou le champ",
+        "key": "sellLand",
+        "labeleAr": "بيع المنزل أو قطعة أرض أو حقل"
+    },
+    {
+        "labeleFr": "Mendier",
+        "key": "mandier",
+        "labeleAr": "التسول"
+    },
+    {
+        "labeleFr": "Vendre les dernières femelles reproductrices",
+        "key": "sellProductifFemale",
+        "labeleAr": "بيع آخر الإناث المنتجات"
+    },
+    {
+        "labeleFr": "Ça doit être de 0-7 ou bien P",
+        "key": "0_7_p",
+        "labeleAr": "يجب أن يكون 0-7 أو P"
+    },
+    {
+        "labeleFr": "Non, parce que je n'en ai pas eu besoin",
+        "key": "no_need",
+        "labeleAr": "لا، لأنني لم أكن بحاجة إليه"
+    },
+    {
+        "labeleFr": "Non, parce que j'ai déjà vendu ces avoirs ou mené cette activité au cours des 12 derniers mois et je ne peux pas continuer à le faire",
+        "key": "no_sold_somthing",
+        "labeleAr": "لا، لأنني قمت ببيع هذه المقتنيات بالفعل أو قمت بهذا النشاط خلال الـ 12 شهرًا الماضية و لا أستطيع الاستمرار في فعل ذلك"
+    },
+    {
+        "labeleFr": "Non applicable",
+        "key": "no_apliq",
+        "labeleAr": "غير قابل للتطبيق"
+    },
+    {
+        "labeleFr": "Score",
+        "key": "Score",
+        "labeleAr": "النتيجة"
+    },
+    {
+        "labeleFr": "Mahdara",
+        "key": "mahdara",
+        "labeleAr": "المحظرة"
+    },
+    {
+        "labeleFr": "Marié polygame",
+        "key": "maried_polyg",
+        "labeleAr": "متزوج أكثر من زوجة واحدة"
+    },
+    {
+        "labeleFr": "Marié polygame (1ère)",
+        "key": "maried_polyg1",
+        "labeleAr": "الزوجة الأولى"
+    },
+    {
+        "labeleFr": "Marié polygame (2nde) ",
+        "key": "maried_polyg2",
+        "labeleAr": "الزوجة الثانية"
+    },
+    {
+        "labeleFr": "Marié polygame (3ème)",
+        "key": "maried_polyg3",
+        "labeleAr": "الزوجة الثالثة"
+    },
+    {
+        "labeleFr": "Marié polygame (4ème)",
+        "key": "maried_polyg4",
+        "labeleAr": "الزوجة الرابعة"
+    },
+    {
+        "labeleFr": "N’a pas pu fournir les documents d’authentification demandés concernant mes ascendants",
+        "key": "couldn_document",
+        "labeleAr": "لم أتمكن من تقديم الوثائق المطلوبة لثبوت أصولي"
+    },
+    {
+        "labeleFr": "Manque d’Accessibilité du centre d’enregistrement",
+        "key": "cant_access",
+        "labeleAr": "عدم إمكانية الوصول إلى مراكز التسجيل"
+    },
+    {
+        "labeleFr": "Ne veut pas être enregistré",
+        "key": "cant_save",
+        "labeleAr": "لا أرغب في التسجيل"
+    },
+    {
+        "labeleFr": "Quel est votre lien de parenté avec le chef de ménage ?",
+        "key": "chefLink",
+        "labeleAr": "ما علاقتك برب الأسرة؟"
+    },
+    {
+        "labeleFr": "Chef de ménage",
+        "key": "chef_m",
+        "labeleAr": "رب الأسرة"
+    },
+    {
+        "labeleFr": "Epoux (se)",
+        "key": "spouse",
+        "labeleAr": "زوج(ة)"
+    },
+    {
+        "labeleFr": "Fils ou fille",
+        "key": "son_dat",
+        "labeleAr": "ابن أو بنت"
+    },
+    {
+        "labeleFr": "Petit (e) fils / fille",
+        "key": "smal_son_dat",
+        "labeleAr": "حفيد(ة)"
+    },
+    {
+        "labeleFr": "Père ou mère",
+        "key": "fath_moth",
+        "labeleAr": "أب أو أم"
+    },
+    {
+        "labeleFr": "Frère / sœur",
+        "key": "broth_sis",
+        "labeleAr": "أخ أو أخت"
+    },
+    {
+        "labeleFr": "Neveu/nièce",
+        "key": "niece",
+        "labeleAr": "ابن(بنت)الأخ/الأخت"
+    },
+    {
+        "labeleFr": "Beau fils (fille)",
+        "key": "step_s",
+        "labeleAr": "زوج(ة) الابن أو البنت"
+    },
+    {
+        "labeleFr": "Autre parent",
+        "key": "othe_p",
+        "labeleAr": "قرابة أخرى"
+    },
+    {
+        "labeleFr": "Aucun lien de parenté",
+        "key": "no_link",
+        "labeleAr": "لا توجد علاقة قرابة"
+    },
+    {
+        "labeleFr": "Année de naissance",
+        "key": "born_in",
+        "labeleAr": "سنة الميلاد"
+    },
+    {
+        "labeleFr": "َQuelle votre langue maternelle?",
+        "key": "mother_lang",
+        "labeleAr": "ماهي لغتك الأم؟"
+    },
+    {
+        "labeleFr": "Est-ce que un vos parents est décédé ?",
+        "key": "parent_dead",
+        "labeleAr": "هل توفي أحد والديك؟"
+    },
+    {
+        "labeleFr": "Père décédé",
+        "key": "fath_dead",
+        "labeleAr": "الأب متوفى"
+    },
+    {
+        "labeleFr": "Mère décédée",
+        "key": "mother_dead",
+        "labeleAr": "الأم متوفاة"
+    },
+    {
+        "labeleFr": "Les deux décédés",
+        "key": "both_p_dead",
+        "labeleAr": "هما معا"
+    },
+    {
+        "labeleFr": "Les deux en vie",
+        "key": "both_p_alive",
+        "labeleAr": "الاثنان لا يزالان على قيد الحياة"
+    },
+    {
+        "labeleFr": "Est-ce que vous fréquentez actuellement l'École formelle ou non-formelle ?",
+        "key": "goSchool",
+        "labeleAr": "هل تدرس حاليًا في مدرسة النظامية أم غير النظامية؟"
+    },
+    {
+        "labeleFr": "Quel est le niveau d'instruction le plus élevé atteint à vous ?",
+        "key": "mostStudy",
+        "labeleAr": "ما هو أعلى مستوى تعليمي حصلت عليه؟"
+    },
+    {
+        "labeleFr": "Pas de niveau d'instruction",
+        "key": "no_study",
+        "labeleAr": "بدون مستوى تعليمي"
+    },
+    {
+        "labeleFr": "Programme d'alphabétisation",
+        "key": "p_alphabt",
+        "labeleAr": "برنامج محو الأمية"
+    },
+    {
+        "labeleFr": "Est-ce que vous savez lire et écrire ?",
+        "key": "read_write",
+        "labeleAr": "هل تستطيع القراءة والكتابة؟"
+    },
+    {
+        "labeleFr": "Quel est votre état matrimonial ?",
+        "key": "mariage_state",
+        "labeleAr": "ما هي حالتك الاجتماعية؟"
+    },
+    {
+        "labeleFr": "Lient avec CM",
+        "key": "chef_link",
+        "labeleAr": "العلاقة برب الأسرة"
+    },
+    {
+        "labeleFr": "Agriculture",
+        "key": "agriculture",
+        "labeleAr": "الزراعة"
+    },
+    {
+        "labeleFr": "Salarié informel",
+        "key": "informal_salary",
+        "labeleAr": "أجير في القطاع غير المصنف"
+    },
+    {
+        "labeleFr": "Salarié formel",
+        "key": "formal_salary",
+        "labeleAr": "أجير في القطاع المصنف"
+    },
+    {
+        "labeleFr": "Tu a un numéro d'identification national?",
+        "key": "hasNni",
+        "labeleAr": "هل لديك رقم تعريف وطني؟"
+    },
+    {
+        "labeleFr": "Occupé",
+        "key": "ocup",
+        "labeleAr": "يشتغل"
+    },
+    {
+        "labeleFr": "Inoccupé ayant déjà travaillé",
+        "key": "in_ocup_already",
+        "labeleAr": "لا يشتغل وسبق له ان اشتعل"
+    },
+    {
+        "labeleFr": "Inoccupé n'ayant jamais travaillé",
+        "key": "in_ocup_never",
+        "labeleAr": "لا يشتغل ولم يسبق له ان اشتغل"
+    },
+    {
+        "labeleFr": "Elève/étudiant",
+        "key": "student",
+        "labeleAr": "تلميذ / طالب"
+    },
+    {
+        "labeleFr": "Femme au foyer",
+        "key": "housewife",
+        "labeleAr": "ربة منزل"
+    },
+    {
+        "labeleFr": "Retraité",
+        "key": "retired",
+        "labeleAr": "تقاعد"
+    },
+    {
+        "labeleFr": "Rentier",
+        "key": "rentier",
+        "labeleAr": "دخل إستثمار"
+    },
+    {
+        "labeleFr": "Inactif handicapé",
+        "key": "in_handicap",
+        "labeleAr": "معاق"
+    },
+    {
+        "labeleFr": "Autres inactifs",
+        "key": "other_inac",
+        "labeleAr": "آخر غير نشط "
+    },
+    {
+        "labeleFr": "Piere",
+        "key": "piere",
+        "labeleAr": "الحجارة"
+    },
+    {
+        "labeleFr": "Camelin",
+        "key": "camelin",
+        "labeleAr": "الإبل"
+    },
+    {
+        "labeleFr": "Vache",
+        "key": "vache",
+        "labeleAr": "البقر"
+    },
+    {
+        "labeleFr": "Mouton",
+        "key": "mouton",
+        "labeleAr": "الغنم"
+    },
+    {
+        "labeleFr": "Chevre",
+        "key": "chevre",
+        "labeleAr": "الماعز"
+    },
+    {
+        "labeleFr": "Mahdara",
+        "key": "marhdara",
+        "labeleAr": "المحظرة"
+    },
+    {
+        "labeleFr": "Appropriation",
+        "key": "appropriation",
+        "labeleAr": "الكزرة"
+    },
+    {
+        "labeleFr": "Puit",
+        "key": "puit",
+        "labeleAr": "بئر"
+    },
+    {
+        "labeleFr": "Mar",
+        "key": "mar",
+        "labeleAr": "بحيرة"
+    },
+    {
+        "labeleFr": "Fleuve",
+        "key": "fleuve",
+        "labeleAr": "النهر"
+    },
+    {
+        "labeleFr": "Groupe électrogène",
+        "key": "elect_generator",
+        "labeleAr": "مولد كهربائي"
+    },
+    {
+        "labeleFr": "Smartphone",
+        "key": "PossSmartPhone",
+        "labeleAr": "هاتف ذكي"
+    },
+    {
+        "labeleFr": "Briques cuites",
+        "key": "brique",
+        "labeleAr": "الطين المجصص"
+    },
+    {
+        "labeleFr": "Zinc",
+        "key": "zinc",
+        "labeleAr": "الزنك"
+    },
+    {
+        "labeleFr": "Usage d'habitation",
+        "key": "habit",
+        "labeleAr": "إستخدام سكني"
+    },
+    {
+        "labeleFr": "Usage non habitat",
+        "key": "nohabit",
+        "labeleAr": "إستخدام غير سكني"
+    },
+    {
+        "labeleFr": "Bâtiment administratif",
+        "key": "adm",
+        "labeleAr": "مبنى إداري"
+    },
+    {
+        "labeleFr": "Bâtiment militaire",
+        "key": "mili",
+        "labeleAr": "مبنى عسكري"
+    },
+    {
+        "labeleFr": "Bâtiment de bureaux",
+        "key": "bur",
+        "labeleAr": "مبنى إداري"
+    },
+    {
+        "labeleFr": "Hôtel",
+        "key": "hot",
+        "labeleAr": "فندق"
+    },
+    {
+        "labeleFr": "Mosquée",
+        "key": "mos",
+        "labeleAr": "مسجد"
+    },
+    {
+        "labeleFr": "École",
+        "key": "eco",
+        "labeleAr": "مدرسة"
+    },
+    {
+        "labeleFr": "Mahadra",
+        "key": "maha",
+        "labeleAr": "محظرة"
+    },
+    {
+        "labeleFr": "Poste de santé/Clinique",
+        "key": "sante",
+        "labeleAr": "مركز صحي / عيادة"
+    },
+    {
+        "labeleFr": "Pharmacie",
+        "key": "pharma",
+        "labeleAr": "صيدلية"
+    },
+    {
+        "labeleFr": "Station d'hydrocarbures",
+        "key": "sta",
+        "labeleAr": "محطة محروقات"
+    },
+    {
+        "labeleFr": "Station de services",
+        "key": "stas",
+        "labeleAr": "محطة وقود"
+    },
+    {
+        "labeleFr": "Épicerie",
+        "key": "epi",
+        "labeleAr": "بقالة"
+    },
+    {
+        "labeleFr": "Boulangerie",
+        "key": "bou",
+        "labeleAr": "مخبزة"
+    },
+    {
+        "labeleFr": "Chantier",
+        "key": "chant",
+        "labeleAr": "قيد الإنشاء"
+    },
+    {
+        "labeleFr": "Type",
+        "key": "type",
+        "labeleAr": "النوع"
+    },
+    {
+        "labeleFr": "Sous-Type",
+        "key": "soustype",
+        "labeleAr": "النوع الفرعي"
+    },
+    {
+        "labeleFr": "Marché/Commerce",
+        "key": "marc",
+        "labeleAr": "السوق / التجارة"
+    },
+    {
+        "labeleFr": "Tekavoul cache transfer",
+        "key": "tekavoul_cache",
+        "labeleAr": "التكافل (تحويلات نقدية)"
+    },
+    {
+        "labeleFr": "Sans mure",
+        "key": "no_walls",
+        "labeleAr": "بدون جدران"
+    },
+    {
+        "labeleFr": "Est ce que le menage ou l'un de ses membres possede de terre d'habitation?",
+        "key": "habitTerre",
+        "labeleAr": "هل تمتلك الأسرة أو أحد أفرادها قطعة أرضية صالحة للسكن؟"
+    },
+    {
+        "labeleFr": "Combien de metre carre",
+        "key": "landSize",
+        "labeleAr": "ما هي مساحتها بالمتر المربع؟"
+    },
+    {
+        "labeleFr": "Quel a été votre situation d'activité au cours des 7 derniers Jours ?",
+        "key": "ocup7Days",
+        "labeleAr": "كيف كانت حالة نشاطك في الأيام السبعة الماضية؟"
+    },
+    {
+        "labeleFr": "Quelle a été votre statut dans cet emploi ?",
+        "key": "workStatus7D",
+        "labeleAr": "ما هو وضعك في هذه الوظيفة؟"
+    },
+    {
+        "labeleFr": "Indépendant",
+        "key": "independent",
+        "labeleAr": "عمل حر"
+    },
+    {
+        "labeleFr": "Salarié public",
+        "key": "sPublic",
+        "labeleAr": "أجير قطاع عام"
+    },
+    {
+        "labeleFr": "Salarié privé permanent",
+        "key": "sPrivePerm",
+        "labeleAr": "أجير قطاع خاص دائم"
+    },
+    {
+        "labeleFr": "Salarié privé temporaire",
+        "key": "sPriveTem",
+        "labeleAr": "أجير قطاع خاص مؤقت"
+    },
+    {
+        "labeleFr": "Employeur",
+        "key": "employeur",
+        "labeleAr": "رب عمل"
+    },
+    {
+        "labeleFr": "Apprenti",
+        "key": "apprenti",
+        "labeleAr": "متدرب حرفي"
+    },
+    {
+        "labeleFr": "Aide familial",
+        "key": "aidFami",
+        "labeleAr": "مساعد عائلى"
+    },
+    {
+        "labeleFr": "Stagiaire",
+        "key": "stage",
+        "labeleAr": "متدرب"
+    },
+    {
+        "labeleFr": "Bénévole",
+        "key": "benevole",
+        "labeleAr": "متطوع"
+    },
+    {
+        "labeleFr": "Dans quelle branche d'activité l'exerce-t-il ?",
+        "key": "work_branch_7_days",
+        "labeleAr": "في أي فرع من الأنشطة زاولت هذه المهنة؟"
+    },
+    {
+        "labeleFr": "Industrie alimentaire",
+        "key": "indAliment",
+        "labeleAr": "الصناعة الغذائية"
+    },
+    {
+        "labeleFr": "Activités artisanales",
+        "key": "artesin",
+        "labeleAr": "النشاطات التقليدية"
+    },
+    {
+        "labeleFr": "Autres activités de transformation",
+        "key": "autreTrans",
+        "labeleAr": "صناعات تحويلية أخرى"
+    },
+    {
+        "labeleFr": "BTP",
+        "key": "btp",
+        "labeleAr": "البناء والأشغال العامة"
+    },
+    {
+        "labeleFr": "Transport",
+        "key": "transport",
+        "labeleAr": "النقل"
+    },
+    {
+        "labeleFr": "Communications",
+        "key": "communication",
+        "labeleAr": "الاتصالات"
+    },
+    {
+        "labeleFr": "Maison Ordinaire en argile",
+        "key": "houseClay",
+        "labeleAr": "منزل عادي من الطين"
+    },
+    {
+        "labeleFr": "Pièces indépendantes en argile",
+        "key": "indepent_piece3",
+        "labeleAr": "غرف مستقلة من الطين"
+    },
+    {
+        "labeleFr": "Combien de Moud ?",
+        "key": "moud",
+        "labeleAr": "كم من مد؟"
+    },
+    {
+        "labeleFr": "Quel a été la situation principale de votre activité au cours des 12 derniers mois ?",
+        "key": "workBranch12Months",
+        "labeleAr": "ما حالة نشاطكم الرئيسية خلال 12 شهرا الاخيرة؟"
+    },
+    {
+        "labeleFr": "Services divers",
+        "key": "divers",
+        "labeleAr": "خدمات متنوعة"
+    },
+    {
+        "labeleFr": "Education",
+        "key": "educ",
+        "labeleAr": "التعليم"
+    },
+    {
+        "labeleFr": "Santé",
+        "key": "sant",
+        "labeleAr": "الصحة"
+    },
+    {
+        "labeleFr": "Administration",
+        "key": "administration",
+        "labeleAr": "الادارة"
+    },
+    {
+        "labeleFr": "Néant",
+        "key": "neant",
+        "labeleAr": "بدون"
+    },
+    {
+        "labeleFr": "Quel a été votre situation d'activité au cours des 12 derniers mois ?",
+        "key": "ocup12Months",
+        "labeleAr": "كيف كانت حالة نشاطك في 12 شهرا السابقة؟"
+    },
+    {
+        "labeleFr": "Agriculteur",
+        "key": "agriculteur",
+        "labeleAr": "مزارع"
+    },
+    {
+        "labeleFr": "Eleveur",
+        "key": "eleveur",
+        "labeleAr": "منمي"
+    },
+    {
+        "labeleFr": "Pêcheur",
+        "key": "pecheur",
+        "labeleAr": "صياد"
+    },
+    {
+        "labeleFr": "Entrepreneur",
+        "key": "entrepreneur",
+        "labeleAr": "مقاول"
+    },
+    {
+        "labeleFr": "Cadre d'administration",
+        "key": "c_adm",
+        "labeleAr": "إطار في الإدارة (عالي أو متوسط)"
+    },
+    {
+        "labeleFr": "Agent d’administration",
+        "key": "a_adm",
+        "labeleAr": "وكيل إدارة"
+    },
+    {
+        "labeleFr": "Commerçant",
+        "key": "commercant",
+        "labeleAr": "تاجر"
+    },
+    {
+        "labeleFr": "Vendeur/commerce ambulant",
+        "key": "vendeur",
+        "labeleAr": "بائع"
+    },
+    {
+        "labeleFr": "Artisan",
+        "key": "artisan",
+        "labeleAr": "صانع"
+    },
+    {
+        "labeleFr": "Services domestiques",
+        "key": "sDomestic",
+        "labeleAr": "الخدمة المنزلية"
+    },
+    {
+        "labeleFr": "Forces Armées et de sécurité",
+        "key": "fArmSec",
+        "labeleAr": "القوات المسلحة وقوات الأمن"
+    },
+    {
+        "labeleFr": "Autre métier ou profession",
+        "key": "aMetProf",
+        "labeleAr": "مهنة أخري"
+    },
+    {
+        "labeleFr": "Est ce qu'il est handicapé?",
+        "key": "isHandicap",
+        "labeleAr": "هل هو معاق؟"
+    },
+    {
+        "labeleFr": "Est ce qu'il a une maladie chronique?",
+        "key": "hasMC",
+        "labeleAr": "هل يعاني من مرض مزمن؟"
+    },
+    {
+        "labeleFr": "La mère biologique",
+        "key": "mother",
+        "labeleAr": "الأم البيولوجية"
+    },
+    {
+        "labeleFr": "N'habite pas avec le ménage",
+        "key": "not_in_menage",
+        "labeleAr": "لا تعيش في الأسرة"
+    },
+    {
+        "labeleFr": "Aucun niveau",
+        "key": "no_lev",
+        "labeleAr": "بدون مستوى"
+    },
+    {
+        "labeleFr": "Fontaine(Irigi) protégée",
+        "key": "fontai_proteg",
+        "labeleAr": "ينبوع(إريجي) محمي"
+    },
+    {
+        "labeleFr": "Fontaine(Irigi) non protégée",
+        "key": "fontai_n_proteg",
+        "labeleAr": "ينبوع(إريجي) غير محمي"
+    },
+    {
+        "labeleFr": "Eau de surface",
+        "key": "eau_super",
+        "labeleAr": "المياه السطحية"
+    },
+    {
+        "labeleFr": "Puit protégée",
+        "key": "puit_prot",
+        "labeleAr": "بأر محمي"
+    },
+    {
+        "labeleFr": "Puit non protégée",
+        "key": "puit_n_prot",
+        "labeleAr": "بأر غير محمي"
+    },
+    {
+        "labeleFr": "Puit à pompe forage",
+        "key": "puit_fore",
+        "labeleAr": "بأر بمضخة حفر آلي"
+    },
+    {
+        "labeleFr": "Eau en bouteille",
+        "key": "eau_bot",
+        "labeleAr": "مياه معلبة"
+    },
+    {
+        "labeleFr": "Quel handicap?",
+        "key": "what_handicap",
+        "labeleAr": "نوع الإعاقة"
+    },
+    {
+        "labeleFr": "Est ce qu'il est enrôlé à l’Etat Civile?",
+        "key": "est_enrole",
+        "labeleAr": "هل هو مسجل في السجل المدني؟"
+    },
+    {
+        "labeleFr": "Age",
+        "key": "age",
+        "labeleAr": "العمر"
+    },
+    {
+        "labeleFr": "Chomeur qui cherche un travaille",
+        "key": "isActive",
+        "labeleAr": "عاطل يبحث عن عمل"
+    },
+    {
+        "labeleFr": "Numéro proGres",
+        "key": "NbrProGres",
+        "labeleAr": "proGres"
+    }
+]
