@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
+from tkinter.ttk import Progressbar
 import pandas as pd
 import os
 import subprocess
@@ -7,13 +8,76 @@ import sys
 import platform
 import json
 import datetime
+from modalData import print_fields, flatten_object, flatten_object_no_translation
+
+
+totalProce = 4
+
+
+def handleTranslation(self, df, dictionary, language, curentDoc, totaDoc, curenLang=1):
+    labe = 'labele' + language
+    newDf = []
+    myMap = {}
+    for i in range(len(df)):
+        curentDoc = curentDoc + 1
+        if curenLang == 2 and curentDoc < totaDoc / 2:
+            curentDoc = (totaDoc / 2) + 1
+        prog = curentDoc / totaDoc * 100
+        self.progress['value'] = prog
+        self.progress.update_idletasks()
+        self.progress_label.config(text=str("{:.2f}".format(prog)) + "%")
+        self.progress_label.update_idletasks()
+        newDf.append({})
+        if len(dictionary) < 1:
+            newDf[i] = flatten_object_no_translation(
+                df[i], ''
+            )
+            continue
+        else:
+            df[i] = flatten_object(
+                df[i], '', myMap, dictionary, labe)
+
+        for key in df[i].keys():
+            if key in myMap:
+                newDf[i][myMap[key]] = df[i][key]
+                continue
+            for j in range(len(dictionary)):
+                if key == dictionary[j]['key']:
+                    newDf[i][dictionary[j][labe]] = df[i][key]
+                    myMap[key] = dictionary[j][labe]
+                    break
+                # if the last one and not found
+                elif j == len(dictionary) - 1:
+                    newDf[i][key] = df[i][key]
+    for i in range(len(newDf)):
+        print('newDf[i]')
+        print(newDf[i])
+        if len(dictionary) < 1:
+            continue
+        curentDoc = curentDoc + 1
+        if curenLang == 2 and curentDoc < totaDoc / 2:
+            curentDoc = (totaDoc / 2) + 1
+        prog = curentDoc / totaDoc * 100
+        self.progress['value'] = prog
+        self.progress.update_idletasks()
+        self.progress_label.config(text=str("{:.2f}".format(prog)) + "%")
+        self.progress_label.update_idletasks()
+        for key in newDf[i].keys():
+            if key in myMap:
+                newDf[i][key] = myMap[key]
+                continue
+            for j in range(len(dictionary)):
+                if newDf[i][key] == dictionary[j]['key']:
+                    newDf[i][key] = dictionary[j][labe]
+                    myMap[key] = dictionary[j][labe]
+                    break
+    return newDf
 
 
 class FileInputGUI:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("File Input GUI")
-        self.root.geometry("300x300")
 
         # create a label to display help text
         self.help_label = tk.Label(
@@ -45,6 +109,19 @@ class FileInputGUI:
             self.root, text="Convertir", command=self.convert_file)
         self.convert_button.pack(pady=10)
 
+        self.progress = Progressbar(self.root, orient=tk.HORIZONTAL,
+                                    length=100, mode='determinate')
+        self.progress.pack(pady=(10, 0))
+
+        self.progress_label = tk.Label(
+            self.root, text="", wraplength=280, fg="blue")
+        self.progress_label.pack()
+
+        # create a watermark label
+        self.watermark_label = tk.Label(
+            self.root, text="V-0.2 ~ Created by: Sabbar Mohamed", fg="gray")
+        self.watermark_label.pack(side=tk.BOTTOM)
+
     def browse_file(self):
         # open a file dialog to browse for a file
         file_path = filedialog.askopenfilename()
@@ -71,80 +148,61 @@ class FileInputGUI:
 
         # read the input file into a pandas DataFrame
         try:
-            df = json.load(open(self.input_file_path))
+            mdf = json.load(open(self.input_file_path))
         except ValueError:
             tk.messagebox.showinfo("Error",
                                    "File could not be converted to DataFrame")
+
+        dictionary = []
+        totaDoc = len(mdf) * totalProce
+        curentDoc = 0
         if dictionaryFileType:
             dictionary = json.load(open(self.input_dictionary_file_path))
-            # convert all the headers to the dictionary header using the key and labeleFr
-            # create a hashmap for the already converted headers
-            map = {}
-            newDf = []
-            for i in range(len(df)):
-                newDf.append({})
-                for key in df[i].keys():
-                    if key in map:
-                        newDf[i][map[key]] = df[i][key]
-                        continue
-                    for j in range(len(dictionary)):
-                        if key == dictionary[j]['key']:
-                            newDf[i][dictionary[j]['labeleFr']] = df[i][key]
-                            map[key] = dictionary[j]['labeleFr']
-                            break
-                        # if the last one and not found
-                        elif j == len(dictionary) - 1:
-                            newDf[i][key] = df[i][key]
+            newDfFr = handleTranslation(
+                self, mdf, dictionary, "Fr", curentDoc, totaDoc, 1)
+            newDfAr = handleTranslation(
+                self, mdf, dictionary, "Ar", curentDoc, totaDoc, 2)
+            if len(newDfFr) > 0 and len(newDfAr) > 0:
+                mdf = {
+                    "Fr": newDfFr,
+                    "Ar": newDfAr
+                }
+            else:
+                mdf = {
+                    "sheet": handleTranslation(
+                        self, mdf, dictionary, "Fr", curentDoc, totaDoc, 1)
+                }
+        else:
+            mdf = {
+                "sheet": handleTranslation(
+                    self, mdf, dictionary, "Fr", curentDoc, totaDoc, 1)
+            }
 
-            print('first')
-            print(newDf[0])
-            # convert all the values to the dictionary values using the key and labeleFr
-            for i in range(len(newDf)):
-                for key in newDf[i].keys():
-                    if key in map:
-                        newDf[i][key] = map[key]
-                        continue
-                    for j in range(len(dictionary)):
-                        if newDf[i][key] == dictionary[j]['key']:
-                            newDf[i][key] = dictionary[j]['labeleFr']
-                            map[key] = dictionary[j]['labeleFr']
-                            break
-            print(newDf[0])
+        # go through the mdf object and convert the sub-objects to new strings
+        # myMap = {}
+        # for sheet_name in mdf.keys():
+        #     typeToConvert = ['$oid', '$date', '$numberLong']
+        #     for key in sheet_name:
+        #         for i in range(len(mdf[sheet_name])):
+        #             mdf[sheet_name][i] = flatten_object(
+        #                 mdf[sheet_name][i], parent_key='', myMap=myMap, dictionary=dictionary)
 
-        df = pd.DataFrame(df)
-
-        if len(newDf) > 0:
-            df = pd.DataFrame(newDf)
-
-        print('second')
-        print(newDf[0])
-
-        # iterate through each key in the DataFrame
-        for i in range(len(df)):
-            valuesToConvert = ['$oid', '$date', '$numberLong']
-            for key in df.iloc[i].keys():
-                if isinstance(df.iloc[i][key], dict):
-                    for valueToConvert in valuesToConvert:
-                        print("df.iloc[i][key]")
-                        print(df.iloc[i][key])
-                        if valueToConvert in df.iloc[i][key]:
-                            if valueToConvert == '$oid':
-                                df.iloc[i][key] = df.iloc[i][key][valueToConvert]
-                            elif valueToConvert == '$date':
-                                df.iloc[i][key] = datetime.datetime.fromtimestamp(
-                                    df.iloc[i][key][valueToConvert]/1000.0)
-                            elif valueToConvert == '$numberLong':
-                                df.iloc[i][key] = df.iloc[i][key][valueToConvert]
-
-        print('third')
-        print(newDf[0])
+        # iterate through the mdf object to convert each sheet to a DataFrame
+        for sheet_name, dfff in mdf.items():
+            mdf[sheet_name] = pd.DataFrame(dfff)
 
         # open a file dialog to select the output file path
         output_file_path = filedialog.asksaveasfilename(
             defaultextension=".xlsx")
 
+        self.progress['value'] = 0
+        self.progress_label.config(text='')
+
         # write the DataFrame to an Excel file
-        df.to_excel(output_file_path, index=False)
+        with pd.ExcelWriter(output_file_path) as writer:
+            for sheet_name, dfff in mdf.items():
+                # write each dataframe to a sheet in the Excel file
+                dfff.to_excel(writer, sheet_name=sheet_name, index=False)
 
         # display a message box to indicate conversion is complete
         tk.messagebox.showinfo("Conversion Complete",
@@ -165,6 +223,39 @@ class FileInputGUI:
             sys.exit(1)
 
     def run(self):
+        self.root.resizable(False, False)
+        self.root.configure(padx=20, pady=20)
+        self.root.mainloop()
+
+
+class Authenticate:
+    def __init__(self):
+        self.root = tk.Tk()
+        self.root.title("Authentication")
+        self.root.geometry("300x100")
+
+        self.label = tk.Label(self.root, text="Enter your password")
+        self.label.pack()
+
+        self.password = tk.Entry(self.root, show="*")
+        self.password.pack(pady=5)
+
+        self.button = tk.Button(
+            self.root, text="Authenticate", command=self.authenticate)
+        self.button.pack(pady=5)
+
+    def authenticate(self):
+        if self.password.get() == "admin":
+            self.root.destroy()
+            gui = FileInputGUI()
+            gui.run()
+        else:
+            tk.messagebox.showinfo(
+                "Authentication Failed", "Incorrect password")
+
+    def run(self):
+        self.root.resizable(False, False)
+        self.root.configure(padx=20, pady=20)
         self.root.mainloop()
 
 
