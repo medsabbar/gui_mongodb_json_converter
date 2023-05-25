@@ -1,0 +1,3 @@
+([('jsonconverter',
+   '/Users/mohamedsabbar/documentsibtikar/RS/scripts/gui_mongodb_json_converter/dist/jsonconverter',
+   'EXECUTABLE')],)

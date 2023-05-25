@@ -13,6 +13,9 @@ from modalData import print_fields, flatten_object, flatten_object_no_translatio
 
 totalProce = 4
 
+if getattr(sys, 'frozen', False):
+    import pyi_splash
+
 
 def handleTranslation(self, df, dictionary, language, curentDoc, totaDoc, curenLang=1):
     labe = 'labele' + language
@@ -50,8 +53,6 @@ def handleTranslation(self, df, dictionary, language, curentDoc, totaDoc, curenL
                 elif j == len(dictionary) - 1:
                     newDf[i][key] = df[i][key]
     for i in range(len(newDf)):
-        print('newDf[i]')
-        print(newDf[i])
         if len(dictionary) < 1:
             continue
         curentDoc = curentDoc + 1
@@ -77,7 +78,7 @@ def handleTranslation(self, df, dictionary, language, curentDoc, totaDoc, curenL
 class FileInputGUI:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("File Input GUI")
+        self.root.title("Sabbar convert")
 
         # create a label to display help text
         self.help_label = tk.Label(
@@ -262,3 +263,5 @@ class Authenticate:
 if __name__ == "__main__":
     gui = FileInputGUI()
     gui.run()
+    if getattr(sys, 'frozen', False):
+        pyi_splash.close()

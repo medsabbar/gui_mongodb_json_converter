@@ -1,0 +1,3 @@
+([('myapp_win64',
+   '/Users/mohamedsabbar/documentsibtikar/RS/scripts/gui_mongodb_json_converter/dist/myapp_win64',
+   'EXECUTABLE')],)

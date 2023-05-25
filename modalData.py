@@ -1,7 +1,7 @@
+from collections import defaultdict
 def print_fields(obj):
     if isinstance(obj, dict):
         for key, value in obj.items():
-            print(key)
             print_fields(value)
     elif isinstance(obj, list):
         for item in obj:
@@ -9,73 +9,62 @@ def print_fields(obj):
 
 
 def flatten_object(obj, parent_key='', myMap={}, dictionary=[], labe='labeleFr'):
-    mongoObjects = ['$oid', '$date', '$numberInt', '$numberDouble',
-                    '$numberLong', '$numberDecimal', '$timestamp']
-    if parent_key != '':
-        parent_key += '.'
+    mongoObjects = {'$oid', '$date', '$numberInt', '$numberDouble',
+                    '$numberLong', '$numberDecimal', '$timestamp'}
+
     flattened = {}
-    print('obj')
-    print(obj)
-    for key, value in obj.items():
+
+    stack = [(parent_key, obj)]
+    while stack:
+        key, value = stack.pop()
+
         if isinstance(value, dict):
-            flattened.update(flatten_object(
-                value, parent_key + key, myMap, dictionary))
+            for k, v in value.items():
+                stack.append((f"{key}.{k}" if key else k, v))
         else:
             if key in mongoObjects:
-                parent_key = parent_key[:-1]
                 flattened[parent_key] = value
             else:
                 if isinstance(value, list):
-                    for i in range(len(value)):
-                        if isinstance(value[i], dict):
-                            flattened.update(flatten_object(
-                                value[i], parent_key + key + '.' + str(i), myMap, dictionary))
-                        else:
-                            flattened[parent_key + key +
-                                      '.' + str(i)] = value[i]
-                elif value in myMap:
-                    flattened[parent_key + key] = myMap[value]
+                    flattened[key] = [
+                        str(v) if isinstance(v, dict) else myMap.get(
+                            v, next((d[labe] for d in dictionary if d['key'] == v), v))
+                        for v in value
+                    ]
                 else:
-                    for j in range(len(dictionary)):
-                        if value == dictionary[j]['key']:
-                            flattened[parent_key + key] = dictionary[j][labe]
-                            myMap[value] = dictionary[j][labe]
-                            break
-                        elif j == len(dictionary) - 1:
-                            flattened[parent_key + key] = value
+                    flattened[key] = myMap.get(value, next(
+                        (d[labe] for d in dictionary if d['key'] == value), value))
 
-    print('flattened')
-    print(flattened)
     return flattened
 
 
 def flatten_object_no_translation(obj, parent_ke=''):
     mongoObjects = ['$oid', '$date', '$numberInt', '$numberDouble',
                     '$numberLong', '$numberDecimal', '$timestamp']
-    if parent_ke != '':
-        parent_ke += '.'
+
     flattened = {}
-    for key, value in obj.items():
+    stack = [(parent_ke, obj)]
+    while stack:
+        key, value = stack.pop()
+
         if isinstance(value, dict):
-            flattened.update(flatten_object_no_translation(
-                value, parent_ke + key))
+            for k, v in value.items():
+                stack.append((f"{key}.{k}" if key else k, v))
         else:
             if key in mongoObjects:
                 parent_ke = parent_ke[:-1]
                 flattened[parent_ke] = value
             else:
                 if isinstance(value, list):
-                    for i in range(len(value)):
-                        if isinstance(value[i], dict):
-                            flattened.update(flatten_object_no_translation(
-                                value[i], parent_ke + key + '.' + str(i)))
+                    for i, v in enumerate(value):
+                        if isinstance(v, dict):
+                            stack.append((f"{key}.{i}", v))
                         else:
-                            flattened[parent_ke + key +
-                                      '.' + str(i)] = value[i]
+                            flattened[f"{key}.{i}"] = v
                 else:
-                    flattened[parent_ke + key] = value
-    return flattened
+                    flattened[key] = value
 
+    return flattened
 
 # export the pint_fields function
 __all__ = ['print_fields', 'flatten_object', 'flatten_object_no_translation']
